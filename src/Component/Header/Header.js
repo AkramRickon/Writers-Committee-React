@@ -6,8 +6,8 @@ const Header = () => {
     return (
         <div className='header'>
             <div className='header-text-container'>
-                <h2>Build a Writers Committee</h2>
-                <p>The primary responsibility of the Writing Committee is ongoing evaluation and assessment of General Education writing requirements</p>
+                <h2 className='header-title'>Build a Writers Committee</h2>
+                <p className='header-text'>The primary responsibility of the Writing Committee is ongoing evaluation and assessment of General Education writing requirements</p>
                 <h2>Total Budget : <span className="budget-color">$50000000</span> </h2>
             </div>
 

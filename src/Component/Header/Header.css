@@ -2,11 +2,12 @@
 .header{
     margin-bottom:30px;
 }
-.header h2
+.header-title
 {
     color:rgba(0,0,0,0.8);
+    margin-top: 0px;
 } 
-.header p{
+.header-text{
     font-weight:500;
     color:purple;
 }
@@ -15,19 +16,10 @@
     background-color:rgb(250, 250, 224);
     padding:10px;
     text-align: center;
-    
-}
-.header h2 
-{
-    margin-top: 0px;
-}
-.budget-color{
-    color:rgb(255, 115, 0);
 }
 
-.book-icon
-{
-    color:green;
+.budget-color{
+    color:rgb(255, 115, 0);
 }
 
 nav{
@@ -40,8 +32,8 @@ nav a
 {
     text-decoration:none;
     display:inline-block;
-    padding:5px 20px;
-    margin:5px 15px;
+    padding:0px 10px;
+    margin:5px 10px;
     color:white;
     font-size: 18px;
     font-weight:400;
@@ -49,7 +41,7 @@ nav a
 
 nav a:hover
 {
-    background:#fdf5b7;
+    background:#e9e6ce;
     color:black;
    
 }

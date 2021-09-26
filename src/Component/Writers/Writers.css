@@ -30,5 +30,10 @@
 }
 .cart-icon
 {
-    color:purple;
+    color:rgb(139, 1, 139);
+}
+.fa-user
+{
+    color:rgb(141, 3, 141);
+    margin-right: 5px;
 }

@@ -3,36 +3,25 @@
 {
     text-align: center;
     padding:10px;
-    /* background-color:rgb(248, 248, 214); */
-
-    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
-    /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    /* border: 1px solid rgba(0, 255, 0, 0.50); */
     border-radius:5px;
-
-    /* background-color: #FAF4E7; */
-
 }
+
 .details-container:hover
 {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     background-color:rgb(217, 253, 217);
     transition:1s;
 }
+
+.details-container img {
+    border-radius:50%;
+}
+
 .details-container img:hover{
  
     transform: scale(1.1);
     transition:1s;
-}
-
-/* @keyframes card {
-    from {background-color:rgb(252, 230, 204);}
-    to {background-color: whitesmoke;}
-  } */
-
-.details-container img {
-    border-radius:50%;
 }
 
 .salary-color
@@ -42,21 +31,22 @@
 }
 .btn-cart
 {
-    height:30px;
+    height:35px;
     width:70%;
-    background-color:rgb(87, 9, 87);
+    /* background-color:rgb(87, 9, 87); */
+    background-color:rgb(110, 0, 110);
     border:1px solid black;
     border-radius: 10px;
     color:white;
     font-size:15px;
-    
+    margin-bottom: 10px;
 }
+.btn-cart:hover
+{
+    cursor: pointer;
+}
+
 .fa-shopping-cart
 {
-    margin-right: 5px;
-}
-.fa-user
-{
-    color:purple;
     margin-right: 5px;
 }
