@@ -1,0 +1,19 @@
+
+.cart-items
+{
+    text-align: center;
+}
+
+.btn-hire
+{
+    height:30px;
+    width:40%;
+    background-color:rgb(116, 102, 102);
+    border:1px solid rgb(148, 1, 148);
+    border-radius: 10px;
+    color:white;
+}
+.fa-arrow-right
+{
+    margin-left: 5px;
+}
